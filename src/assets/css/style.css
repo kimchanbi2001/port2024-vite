@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*setting*/
+@import url(setting/fonts.css);
+@import url(setting/vars.css);
+@import url(setting/reset.css);
+
+/*section*/
+@import url(section/header.css);
+@import url(section//home.css);
+@import url(section/ticket.css);
+@import url(section/about.css);
+@import url(section/font.css);
+@import url(section/font.css);
+@import url(section/works.css);
+@import url(section/port.css);
+@import url(section/contact.css);
+@import url(section/footer.css);
+
+
+
+
+
+
