@@ -23,10 +23,39 @@
     </div>
     <!--skip-->
 
-    <div id="header"></div>
+    <div id="header" role="banner">
+        <div class="header_inner">
+            <div class="header_logo">
+                <h1><a href="./index.html">Rina Portfolio</a></h1>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="home">HOME</a></li>
+                    <li><a href="about">ABOUT ME</a></li>
+                    <li><a href="works">WORKS & PORTFOLIO</a></li>
+                    <li><a href="contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header_nav_mobile"
+            id="headerToggle"
+            aria-controls="primary-menu"
+            aria-expanded="false"
+            role="button">
+            
+                <div>
+                    <p class="top">
+                        <img src="./assets/img/header/icon-top-01.png" alt="">
+                    </p>
+                    <p class="top_arr">
+                        <img src="./assets/img/header/icon-top-arr-01.png" alt="">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--header-->
 
-    <div id="main">
+    <div id="main" role="main">
         <section id="home"></section>
         <!--home-->
 
@@ -49,7 +78,7 @@
         <!--contact-->
     </div>
 
-    <div id="footer"></div>
+    <div id="footer" role="contentinfo"></div>
     <!--footer-->
     <script type="module" src="assets/js/main.js"></script>
 </body>
